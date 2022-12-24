@@ -1,0 +1,74 @@
+#logo{
+    width:50px ;
+    margin:5px;
+
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar ul {
+    display: flex;
+    padding: 0px 15px;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none ;
+}
+
+.navbar a:hover{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.divlogo{
+    display:flex;
+    justify-content: center;
+}
+.divli {
+    width: 50px;
+    display: flex;
+    align-content: center;
+}
+#bannière {
+    width:100%;
+    max-height: 150px;
+    padding: 15px;
+    position: relative;
+}
+.textebannière{
+    display: flex;
+    position: absolute;
+    top:210px;
+    left:17px;
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 97.52%;
+
+}
+.textebannière a{
+    padding-left:5px ;
+}
+#article {
+    padding-left:15px;
+    
+}
+section{
+    display: flex;
+    justify-content: flex-end;
+}
+#sagiri{
+    width: 150px;
+}
+footer{
+    background-color: gray;
+    height:83px;
+    position:absolute;
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(243, 140, 140);
+}
+
+#photo{
+
+    border: 3px solid violet;
+    box-shadow: -6px 6px 12px 0px black;
+    width:150px;
+    position: fixed;
+    top:0px;
+    right:0px;
+    margin:15px
+}
+.conteneur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+#div{
+    background-color: black;
+    width: 50px;
+    height: 50em;
+    display: flex;
+}
+#conteneur{
+    display: flex;
+}

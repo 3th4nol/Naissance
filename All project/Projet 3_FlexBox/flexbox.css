@@ -1,0 +1,26 @@
+#conteneur{
+    border: 2px solid rgb(0, 0, 0);
+    height:300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.element1{
+    background-color:rgba(0, 0, 0, 0.205);
+    width: 100px;
+    height:100px;
+}
+.element2{
+    background-color: rgb(255, 0, 0) ;
+    width: 100px;
+    height:100px;
+
+}
+.element3{
+    background-color: blueviolet;
+    width: 100px;
+    height:100px;
+}
